@@ -13,7 +13,11 @@ private int opticalZoom;
 	}
 	
 	public String toString(){
+<<<<<<< HEAD
 //		String output = "";
+=======
+	//	String output = "";
+>>>>>>> branch 'master' of https://github.com/shwe-sintt/ResourceCentre_Student.git
 		String info = super.toString();
 		info += String.format("%-20d\n", opticalZoom);
 		return info;
