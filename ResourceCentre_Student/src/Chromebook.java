@@ -1,4 +1,4 @@
-// Elvina#1
+// Elvina#
 public class Chromebook extends Item{
 	private String os;
 
