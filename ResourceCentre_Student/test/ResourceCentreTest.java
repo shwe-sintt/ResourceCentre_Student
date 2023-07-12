@@ -128,11 +128,9 @@ public class ResourceCentreTest {
 
 	@Test
 	public void testRetrieveAllChromebook() {
-<<<<<<< HEAD
 		//fail("Not yet implemented");
 		// write your code here
 		
-=======
 		//Test Case 1
 		// Test if Item list is not null and empty
 		assertNotNull("Test if there is valid Chromebook arraylist to add to", chromebookList);
@@ -166,7 +164,6 @@ public class ResourceCentreTest {
 		testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0012", "SAMSUNG Chromebook 4+", "Yes", "Win 10");
 		// Test that the details are displayed correctly
 		assertEquals("Test that the display is correct.", testOutput, allChromebook);
->>>>>>> branch 'master' of https://github.com/shwe-sintt/ResourceCentre_Student
 	}
 
 	@Test

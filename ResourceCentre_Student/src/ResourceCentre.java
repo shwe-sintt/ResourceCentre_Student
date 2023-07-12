@@ -204,10 +204,7 @@ public class ResourceCentre {
 		
 	}	
 	public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) {
-<<<<<<< HEAD
 		// write your code here
-		
-=======
 		Chromebook item;
 		for(int i = 0; i < chromebookList.size(); i++) {
 			item = chromebookList.get(i);
@@ -219,7 +216,6 @@ public class ResourceCentre {
 		}
 		
 		chromebookList.add(cb);
->>>>>>> branch 'master' of https://github.com/shwe-sintt/ResourceCentre_Student
 	}
 	
 	//================================= Option 3 Loan an item (CRUD - Update) =================================
