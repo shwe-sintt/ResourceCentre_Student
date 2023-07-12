@@ -142,7 +142,7 @@ public class ResourceCentre {
 	
 	public static void viewAllCamcorder(ArrayList<Camcorder> camcorderList) {
 		ResourceCentre.setHeader("CAMCORDER LIST");
-		String output = String.format("%-10s %-30s %-10s %-10s %-20s\n", "ASSET TAG", "DESCRIPTION",
+		String output = String.format("%-10s %-30s %-10s %-10s %-20d\n", "ASSET TAG", "DESCRIPTION",
 				"AVAILABLE", "DUE DATE","OPTICAL ZOOM");
 		 output += retrieveAllCamcorder(camcorderList);	
 		System.out.println(output);

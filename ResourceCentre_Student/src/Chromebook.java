@@ -1,4 +1,4 @@
-// Elvina#1
+// Elvina#
 public class Chromebook extends Item{
 	private String os;
 
@@ -12,10 +12,9 @@ public class Chromebook extends Item{
 	}
 	
 	public String toString(){
-//		String output = "";
-		String info = super.toString();
-		info += String.format("%-20d\n", os);
-		return info;
+		String output = super.toString();
+		output += String.format("%-20s\n", os);
+		return output;
 	}
 }
 

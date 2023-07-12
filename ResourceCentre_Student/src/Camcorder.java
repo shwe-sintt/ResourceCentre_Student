@@ -12,10 +12,9 @@ private int opticalZoom;
 	}
 	
 	public String toString(){
-	//	String output = "";
-		String info = super.toString();
-		info += String.format("%-20d\n", opticalZoom);
-		return info;
+		String output = super.toString();
+		output += String.format("%-20d\n", opticalZoom);
+		return output;
 	}
 }
 
