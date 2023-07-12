@@ -142,7 +142,7 @@ public class ResourceCentre {
 	
 	public static void viewAllCamcorder(ArrayList<Camcorder> camcorderList) {
 		ResourceCentre.setHeader("CAMCORDER LIST");
-		String output = String.format("%-10s %-30s %-10s %-10s %-20s\n", "ASSET TAG", "DESCRIPTION",
+		String output = String.format("%-10s %-30s %-10s %-10s %-20d\n", "ASSET TAG", "DESCRIPTION",
 				"AVAILABLE", "DUE DATE","OPTICAL ZOOM");
 		 output += retrieveAllCamcorder(camcorderList);	
 		System.out.println(output);
@@ -153,7 +153,7 @@ public class ResourceCentre {
 		
 		for (int i = 0; i < chromebookList.size(); i++) {
 			if (chromebookList.get(i).getIsAvailable()) {
-				output += String.format("%-10s %-30s %-10s %-10s %-20d\n", chromebookList.get(i).getAssetTag(),
+				output += String.format("%-10s %-30s %-10s %-10s %-20s\n", chromebookList.get(i).getAssetTag(),
 						chromebookList.get(i).getDescription(),
 						ResourceCentre.showAvailability(chromebookList.get(i).getIsAvailable()),
 						chromebookList.get(i).getDueDate(),chromebookList.get(i).getOs());
