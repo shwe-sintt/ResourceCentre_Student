@@ -1,6 +1,4 @@
-//testttt
-//t2
-// Elvina#1
+
 public class Camcorder extends Item{
 private int opticalZoom;
 
