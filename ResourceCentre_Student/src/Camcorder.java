@@ -1,5 +1,6 @@
 //testttt
 //t2
+// Elvina#1
 public class Camcorder extends Item{
 private int opticalZoom;
 
@@ -13,10 +14,10 @@ private int opticalZoom;
 	}
 	
 	public String toString(){
-		String output = super.toString();
-		// Write your codes here
-		output+=String.format("%-20d\n", opticalZoom);
-		return output;
+	//	String output = "";
+		String info = super.toString();
+		info += String.format("%-20d\n", opticalZoom);
+		return info;
 	}
 }
 
